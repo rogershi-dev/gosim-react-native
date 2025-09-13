@@ -12,7 +12,7 @@ concurrency:
   group: remote-build-android-${{ github.ref }}
   cancel-in-progress: true
 
-# jobs:
+jobs:
 #   build-release:
 #     runs-on: ubuntu-latest
 

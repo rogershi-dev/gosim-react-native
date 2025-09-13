@@ -12,7 +12,7 @@ concurrency:
   group: remote-build-ios-${{ github.ref }}
   cancel-in-progress: true
 
-# jobs:
+jobs:
 #   build-device:
 #     runs-on: macos-latest
 
